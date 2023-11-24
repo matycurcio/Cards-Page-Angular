@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0px;
+}
+body{
+    background: lightgray;
+    
+}
+
+footer{
+    background-color: lightblue;
+}
+
+#container{
+    width: 90%;
+    margin: 0px auto;
+    border: 1px solid red;
+}
+
+header{
+    background-color: red;
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color:white;
+}
+nav{
+    background: lightblue;
+    height: 50px;
+    border-bottom: 1px solid black;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    line-height: 50px;
+    margin-left: 1%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#content{
+    float: left;
+    width: 80%;
+    min-height: 500px;
+    background-color: green;
+}
+
+aside{
+    float: left;
+    width: 20%;
+    min-height: 500px;
+    background-color: orange;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.article{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid lightgray;
+}
